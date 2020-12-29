@@ -1,0 +1,244 @@
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h1,nav{
+	text-align: center;
+}
+#Banner{
+	background: url("Banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	overflow: hidden;
+	background-position: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+nav{
+	background: rgba(0,0,0,0.6);
+	font-size: 0;
+}
+nav a{
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+	transition: 0.3s;
+	font-size: 15px;
+	line-height: 35px;
+	display: inline-block;
+}
+nav a:hover{
+	background: rgba(0,0,0,0.15);
+}
+#lorem{ 
+	padding-top: 80px;
+	color: white;
+	padding-bottom: 80px;
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+}
+#Banner p{
+	padding-right: 100px;
+	text-align: right;
+	background: linear-gradient(to right, transparent, rgba(0,0,0,0.5));
+	width: 40%;
+	float: right;
+	color: white;
+	margin-bottom: 35px;
+	line-height: 20px;
+	font-family: 'Playfair Display', serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#bannerButton{
+	display: block;
+	clear: both;
+	background: white;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 25px; 
+	margin-top: 25px;
+	border-radius: 5px;
+	color: black;
+	font-family: 'Playfair Display', serif;
+}
+#info{
+	width: 40%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	font-family: 'Playfair Display', serif;
+}
+#aboutUs img {
+	width: 40%;
+	display: inline-block;
+	font-family: 'Playfair Display', serif;
+	padding-right: 50px;
+}
+#aboutUs {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	/*padding-bottom: 40px;*/
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#info h5 {
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: 'Playfair Display', serif;
+	padding-top: 15px;
+}
+h3{
+	padding-bottom: 40px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+#suppliers{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+.supplier{
+
+	display: inline-block;
+	font-family: 'Playfair Display', serif;
+	margin: 0 20px;
+	width: 20%;
+	border-radius:20px;
+	background-size: cover;
+	background-position: center;
+}
+.supplier:nth-of-type(1){
+	background-image: url("netherlands.jpeg");
+}
+.supplier:nth-of-type(2){
+	background-image: url("france.jpeg");
+}
+.supplier:nth-of-type(3){
+	background-image: url("germany.jpeg");
+}
+.supplier ul{
+	background: rgba(255,255,255,0.7);
+	list-style: none;
+	font-family: 'Playfair Display', serif;
+}
+.supplier h5{
+	color: #222222;
+	font-family: 'Playfair Display', serif;
+}
+.supplier li{
+	color: #555555;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-family: 'Playfair Display', serif;
+} 
+.supplier a{
+	color: #000000;
+	background: rgba(255,255,255,1);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 20px auto;
+	border-radius: 20px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+	font-family: 'Playfair Display', serif;
+}
+.coun {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-family: 'Playfair Display', serif;
+}
+
+
+.product{
+	/*	background:lightblue;*/
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	font-family: 'Playfair Display', serif;
+	border:1px solid #ddd;
+}
+.product img{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	object-position: center;
+}
+.productInfo {
+	display: inline-block;
+	width: calc(100% - 210px);
+	/*	background: lightgreen;*/
+	padding-bottom: 30px;	
+	margin-bottom: 30px;
+	font-family: 'Playfair Display', serif;
+	vertical-align: top;
+
+}
+.product a{
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+
+}
+.products h3{
+	padding-top: 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+
+.feedback h3{
+	font-family: 'Playfair Display', serif;
+	padding-top: 30px;
+}
+.feedback img{
+	width: 15%;
+	/*background: pink;*/
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 100px;
+}
+.feedback{
+	text-align: center;
+}
+@media (max-width: 600px){
+	#aboutUs img {
+		width: 100%;
+		padding: 0;
+	} 
+	.supplier{
+		width: 90%;
+		margin-bottom: 30px;
+	}
+	.product img{
+		height: 350px;
+		width: 100%;
+		margin: auto;
+		margin: 10px;
+		display: inline-block;
+	}
+	.productInfo{
+		width: auto;
+		display: inline-block;
+	}
+	.product{
+		border: none;
+	}
+	.feedback img{
+		margin-left: 15px;
+		margin-right: 15px;
+		width: 33.4%;
+	}
+}
+
